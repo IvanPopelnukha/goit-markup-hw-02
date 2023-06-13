@@ -8,8 +8,8 @@
     --ocean-color: #404BBF;
 }
 body {
-  color: var(--navy-blue-color);
-  background-color: var(--cloud--color);
+  color: var(--slate-color);
+  background-color: var(--white-color);
   font-family: Roboto, sans-serif; 
   font-style: normal;
   font-weight: 400;
@@ -23,10 +23,9 @@ ul {
     list-style: none;
 }
 /* Header site */
-.site-header {
-    background-color: var(--white-color);
+/* .site-header {
     border-bottom: 1px solid var(--cornflower-color);
-}
+} */
 .logo {
     color: var(--navy-blue-color);
     font-family: 'Raleway';
@@ -62,7 +61,7 @@ ul {
 /* Hero section */
 .hero {
     background-color: var(--navy-blue-color);
-    text-align: center;
+    /* text-align: center; */
 }
 .hero-title {
     color: var(--white-color);
@@ -78,8 +77,8 @@ ul {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    border-radius: 4px;
+    /* box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px; */
     cursor: pointer;
 } 
 /* features section */
@@ -100,7 +99,7 @@ ul {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
-    text-align: center;
+    /* text-align: center; */
     text-transform: capitalize;
 }
 /* team section */
@@ -110,8 +109,8 @@ background-color: var(--cloud-color);
 .team-card {
     background-color: var(--white-color);
     text-align: center;
-    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-    border-radius: 0px 0px 4px 4px;
+    /* box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+    border-radius: 0px 0px 4px 4px; */
 }
 .team-person {
     font-weight: 500;
@@ -155,11 +154,11 @@ background-color: var(--cloud-color);
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
-    text-align: center;
+    /* text-align: center; */
     letter-spacing: 0.04em;
 
-    border: 1px solid var(--cornflower-color);
-    border-radius: 4px;  
+    /* border: 1px solid var(--cornflower-color);
+    border-radius: 4px;   */
 
     cursor: pointer;
 }
@@ -170,7 +169,7 @@ background-color: var(--cloud-color);
 }
 .project-card {
     background-color: var(--white-color);
-    border: 1px solid var(--cornflower-color);
+    /* border: 1px solid var(--cornflower-color); */
 }
 .project-title {
     font-weight: 500;

@@ -1,9 +1,9 @@
 :root {
-    --navy-blue-color: rgba(46, 47, 66, 1);
-    --slate-color: rgba(67, 68, 85, 1);
-    --iris-color: rgba(77, 90, 229, 1);
-    --white-color: rgba(255, 255, 255, 1);
-    --cloud-color: rgba(244, 244, 253, 1);
+    --navy-blue-color: #2E2F42;
+    --slate-color: #434455;
+    --iris-color: #4D5AE5;
+    --white-color: #FFFFFF;
+    --cloud-color: #F4F4FD;
     --cornflower-color:#E7E9FC;
     --ocean-color: #404BBF;
 }
@@ -23,15 +23,13 @@ ul {
     list-style: none;
 }
 /* Header site */
-/* .site-header {
-    border-bottom: 1px solid var(--cornflower-color);
-} */
+
 .logo {
     color: var(--navy-blue-color);
-    font-family: 'Raleway';
+    font-family: 'Raleway', sans-serif;
     font-weight: 800;
     font-size: 18px;
-    line-height: 1.16;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
 }
@@ -61,7 +59,6 @@ ul {
 /* Hero section */
 .hero {
     background-color: var(--navy-blue-color);
-    /* text-align: center; */
 }
 .hero-title {
     color: var(--white-color);
@@ -77,8 +74,6 @@ ul {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    /* box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    border-radius: 4px; */
     cursor: pointer;
 } 
 /* features section */
@@ -99,7 +94,6 @@ ul {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
-    /* text-align: center; */
     text-transform: capitalize;
 }
 /* team section */
@@ -108,9 +102,7 @@ background-color: var(--cloud-color);
 }
 .team-card {
     background-color: var(--white-color);
-    text-align: center;
-    /* box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-    border-radius: 0px 0px 4px 4px; */
+
 }
 .team-person {
     font-weight: 500;
@@ -154,11 +146,7 @@ background-color: var(--cloud-color);
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
-    /* text-align: center; */
     letter-spacing: 0.04em;
-
-    /* border: 1px solid var(--cornflower-color);
-    border-radius: 4px;   */
 
     cursor: pointer;
 }
@@ -169,7 +157,7 @@ background-color: var(--cloud-color);
 }
 .project-card {
     background-color: var(--white-color);
-    /* border: 1px solid var(--cornflower-color); */
+   
 }
 .project-title {
     font-weight: 500;

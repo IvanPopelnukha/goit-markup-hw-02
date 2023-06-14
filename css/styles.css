@@ -150,7 +150,7 @@ body {
 }
 /* portfolio */
 .section-header {
-    display: none;
+    opacity: 0;
 }
 .btn {
     color: var(--iris-color);
@@ -182,5 +182,5 @@ body {
     letter-spacing: 0.02em;
 }
 .project-text {
-    
+  color: var(--slate-color);  
 }

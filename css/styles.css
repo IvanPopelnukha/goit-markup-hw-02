@@ -44,7 +44,7 @@ body {
 }
 .nav-list .item:hover ,
 .nav-list .item:focus {
-    color: var(--iris-color);
+    color: var(--ocean-color);
 }
 .nav-list .item {
    color: var(--navy-blue-color);
@@ -57,7 +57,7 @@ body {
 }
 .address .item:hover,
 .address .item:focus {
-    color: var(--iris-color);
+    color: var(--ocean-color);
 }
 /* Hero section */
 .hero {
@@ -85,7 +85,7 @@ body {
 }
 /* features section */
 .features h2 {
-    display: none;
+    opacity: 0;
 }
 .features-title {
     font-weight: 500;

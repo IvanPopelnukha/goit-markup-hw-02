@@ -69,6 +69,7 @@ body {
     font-size: 56px;
     line-height: 1.07;
     letter-spacing: 0.02em;
+    text-align: center;
 }
 .hero-btn {
     color: var(--white-color);
@@ -76,18 +77,21 @@ body {
     font-family: inherit;
     font-weight: 500;
     font-size: 16px;
+    line-height: 1.5;
     letter-spacing: 0.04em;
     cursor: pointer;
 } 
 .hero-btn:hover,
 .hero-btn:focus {
     background-color: var(--ocean-color);
+
 }
 /* features section */
 .features h2 {
     opacity: 0;
 }
 .features-title {
+    color: var(--navy-blue-color);
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -99,10 +103,12 @@ body {
 }
 /* img section */
 .header{
+    color: var(--navy-blue-color);
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
     text-transform: capitalize;
+    text-align: center
 }
 /* team section */
 .team {
@@ -113,6 +119,7 @@ body {
 
 }
 .team-person {
+    color: var(--navy-blue-color);
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
